@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Clube do Livros</title>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2 class="bg-image">Participe do clube do livro!!</h2> 
+            </div>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulário</p>
+             </div>
+            <div class="form-body">
+            <h3 class="form-title">Se inscreva e entre para o clue do livro</h3>
+            <p>Preencha as informações a seguir:</p>
+            <form>
+                <div class="box-input">
+                    <label for="Name"
+                        >Digite seu nome:
+                        <span class="required-field">*</span></label
+                    >
+                    <input type="text" name="Name" id="Name" class="block" />
+                </div>
+                <div class="box-input">
+                    <label for="birthday"
+                        >Data de nascimento
+                        <span class="required-field">*</span></label
+                    >
+                    <input
+                        type="date"
+                        name="birthday"
+                        id="birthday"
+                        class="block"
+                    />
+                </div>
+                <div class="box-input">
+                    <label for="books"
+                        >Quais foram o últimos três livros que você leu?
+                        <span class="required-field">*</span></label
+                    >
+                    <textarea name="books" id="books" class="block"></textarea>
+                </div>
+                <div class="opitional-box" >
+                  <p>Qual(s) o(s) seu(s) genêro(s) predileto(s)? <span class="required-field">*</span></p>
+                  <ul class="optional-list">
+                    <li>
+                        <input type="checkbox" id="genero" name="genre">
+                    <label for="genero">Romance</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="genero" name="genre">
+                        <label for="genero">Fantasia</label> 
+                    </li>
+                    <li>
+                        <input type="checkbox" id="genero" name="genre">
+                    <label for="genero">Terror</label> 
+                    </li>
+                    <li>
+                        <input type="checkbox" id="genero" name="genre">
+                    <label for="genero">Suspense</label> 
+                    </li>
+                    <li>
+                        <input type="checkbox" id="genero" name="genre">
+                    <label for="genero">Autoajuda/Conhecimento</label> 
+                    </li>
+                    <li>
+                        <input type="checkbox" id="genero" name="genre">
+                        <label for="genero">Hq</label> 
+                    </li>
+                    <li>
+                        <input type="checkbox" id="genero" name="genre">
+                        <label for="genero">Literatura clássica</label> 
+                    </li>
+                    <li>
+                        <input type="checkbox" id="genero" name="genre">
+                    <label for="genero">Outros </label> <textarea name="genre" id="genero"></textarea>
+                    </li>
+                </ul>
+                </div>
+
+                <input type="submit" value="Enviar" class="btn-submit" />
+            </form>
+        </div>
+    </body>
+</html>

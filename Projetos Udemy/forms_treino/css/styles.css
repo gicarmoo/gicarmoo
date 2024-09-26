@@ -1,0 +1,114 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(243, 216, 220);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #333;
+}
+
+p,
+label {
+    color: #3d3c3c;
+}
+
+.header {
+    /* background-color: rgb(241, 241, 241); */
+    height: 70px;
+    padding: 50px;
+    background-image: url('../img/WSIRN\ Ep\ 154_\ Books\ so\ inspiring\ you\ might\ be\ afraid\ to\ read\ them.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+
+.header h2 {
+    text-align: center;
+    margin-top: 0;
+    height: 35px;
+    color: white;
+    text-shadow: black 4px 3px 4px;
+}
+
+.form-title {
+    margin-bottom: 20px;
+}
+
+.form-body {
+    padding: 30px;
+}
+
+.box-input {
+    margin-bottom: 10px;
+}
+
+.form-header p {
+    border-bottom: 4px solid rgb(84, 150, 172);
+    color: #000;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 40px;
+    line-height: 46px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+input[type='text'],
+input[type='date'],
+textarea {
+    width: 400px;
+}
+
+.form-container {
+    background-color: #fdfdfd;
+    width: 60%;
+    margin-left: 20%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+}
+
+.textarea {
+    padding: 10px 5px;
+}
+.required-field {
+    color: #d80835;
+}
+
+.box-input {
+    margin-bottom: 35px;
+}
+
+.block {
+    display: block;
+}
+
+.optional-box {
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
+
+.optional-list li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.box-input {
+    margin-bottom: 15px;
+}
